@@ -1,0 +1,234 @@
+body{
+    font-family: "Open Sans", sans-serif;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+header{
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url('../images/Banner\ Image.png');
+
+    background-size: cover;
+    background-repeat: no-repeat;
+ 
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.bannar{
+    
+    text-align: center;
+    color: rgb(241, 238, 33);
+
+}
+.bannar-title{
+    margin-bottom: 0px;
+}
+.new-year{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-weight: bolder;
+    font-size: 70px
+}
+.section{
+    margin: 50px auto ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.off-section{
+    text-align: center;
+    
+
+}
+.primary-text{
+    text-align: center;
+    color: red;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+.new-year-pic{
+    width: 50%;
+}
+.mid-section{
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url('../images/Vectorrr.png');
+
+    background-size: cover;
+    background-repeat: no-repeat;
+ 
+    height: 600px;
+    display: flex;
+    align-items: center;
+    
+    
+    
+}
+.mid-night-party{
+    text-align: left;
+    padding-left: 50px;
+    color: white;
+    max-width: 600px;
+}
+.place{
+    color: red;
+}
+.date-time{
+    text-align: center;
+    background-color: rgba(255, 102, 0, 0.13);
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.primary-btn{
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+
+
+}
+.best-offer{
+    width: 100%;
+    padding-left: 20px;
+}
+.best-offer h4{
+    color: red;
+    font-size: 25px;
+}
+.offer-right{
+    width: 100%;
+}
+.offer-right h2{
+    color: red;
+    font-size: 30px;
+}
+.circle-pic{
+    border: 10px solid red;
+    border-radius: 50%;
+  
+}
+.circle-pic img{
+    /* width: 100%; */
+    border: 20px solid white;
+    border-radius: 50%;
+    
+
+
+}
+.holidays-section{
+    text-align: center;
+}
+.holidays-description{
+    
+    max-width: 600px;
+    margin: 0 auto;
+    
+}
+
+.holi-pic{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    /* gap: 30px; */
+    margin-top: 100px;
+    background-image: url('../images/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 1320px 190px;
+}   
+.holi-pic-1{
+    width: 50%;
+    padding-left: 50px;
+}
+.holi-pic-2{
+    width: 27%;
+    padding-left: 250px;
+}
+.discound-pic{
+    width: 15%;
+    position: absolute;
+    top: 3100px;
+    left: 870px;
+}
+.card-section{
+    margin: 50px auto;
+    padding-left: 30px;
+}
+.best-gift h4{
+    color: red;
+}
+.best-descrioption{
+    max-width: 700px;
+}
+.grid-pic img{
+    width: 30%;
+}
+.grid-pic{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+.subcribe{
+    text-align: center;
+    padding: 50px 0;
+}
+.subcribe img{
+    width: 15%;
+}
+.subcribe p{
+    max-width: 700px;
+}
+.subcribe input{
+    width: 40%;
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+}
+.subscribe-section{
+    background-color: rgba(238, 85, 58, 0.13);
+   
+    
+}
+.fotter-section{
+    background-color: black;
+    color: white;
+}
+.address{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 100px 0px 100px;
+    align-items: center;
+}
+
+.phone{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+hr{
+    margin-top: 0px;
+    border-color: white;
+    width: 90%;
+}
+.social-icon{
+    text-align: center;
+    
+}
+.social-icon img{
+    margin: 20px 10px;
+    width: 3%;
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
